@@ -2,46 +2,33 @@
 title: Home
 layout: PageLayout
 sections:
-  - type: HeroSection
-    elementId: homepage-hero-1
-    colors: colors-c
-    title: 'Love where you work, because work loves you'
-    text: >
-      One platform, one community, getting to the bottom line of everything
-      employment.  Figure out your benefits, practice for interviews, get
-      mentored, help peers, get helped in return.
     actions:
       - type: Button
-        label: Sign up
+        label: Get Started
         url: 'https://www.stackbit.com/'
         style: primary
-        elementId: hero-main-button
-    media:
-      type: ImageBlock
-      url: /images/hero-1.png
-      altText: Image alt text
-      caption: Image caption
+        iconPosition: right
+        icon: arrowRight
+        showIcon: true
+    backgroundImage:
+      type: BackgroundImage
+      url: /images/hero.webp
+      backgroundSize: cover
+      backgroundPosition: center
+      backgroundRepeat: no-repeat
+      opacity: 85
     styles:
       self:
         height: auto
         width: wide
-        margin:
-          - mt-0
-          - mb-11
-          - ml-0
-          - mr-0
         padding:
-          - pt-12
-          - pb-12
-          - pr-4
-          - pl-4
+          - pt-20
+          - pb-96
+          - pr-12
+          - pl-12
         alignItems: center
         justifyContent: center
         flexDirection: row
-        borderRadius: none
-        borderWidth: 0
-        borderStyle: none
-        borderColor: border-dark
       title:
         textAlign: left
       subtitle:
@@ -50,366 +37,35 @@ sections:
         textAlign: left
       actions:
         justifyContent: flex-start
+    styles:
+      self:
+        height: auto
+        width: wide
+        padding:
+          - pt-28
+          - pb-36
+          - pr-4
+          - pl-4
+        justifyContent: center
+      quote:
+        textAlign: center
+      name:
+        textAlign: center
+      title:
+        textAlign: center
   - elementId: ''
-    colors: colors-f
-    title: Where did everyone go?
-    text: >
-      Learn how top tech companies have learned working remote using our
-      product.
+    colors: colors-c
+    variant: variant-a
+    title: Seasonal adventures
     actions:
-      - type: Button
-        label: Sign Up
-        url: /
-        style: primary
       - type: Link
-        label: Watch Video
-        url: /
+        label: See all adventures
+        url: /blog
         showIcon: true
         icon: arrowRight
-    styles:
-      self:
-        height: auto
-        width: wide
-        margin:
-          - mt-20
-          - mb-20
-          - ml-20
-          - mr-20
-        padding:
-          - pt-28
-          - pb-28
-          - pl-4
-          - pr-4
-        alignItems: center
-        justifyContent: center
-        flexDirection: row
-      title:
-        textAlign: left
-      subtitle:
-        textAlign: left
-      text:
-        textAlign: left
-      actions:
-        justifyContent: flex-start
-    type: HeroSection
-    media:
-      url: /images/hero-3.jpg
-      altText: Where did everyone go?
-      caption: Team meeting
-      elementId: ''
-      styles:
-        self:
-          opacity: 100
-      type: ImageBlock
-  - colors: colors-h
-    elementId: ''
-    images:
-      - type: ImageBlock
-        url: /images/apple.svg
-        altText: Apple
-        caption: Apple
-      - type: ImageBlock
-        url: /images/google-play.svg
-        altText: Google Play
-        caption: Google Play
-      - type: ImageBlock
-        url: /images/playstation.svg
-        altText: PlayStation
-        caption: PlayStation
-      - type: ImageBlock
-        url: /images/gatsby.svg
-        altText: Gatsby
-        caption: Gatsby
-      - type: ImageBlock
-        url: /images/xbox.svg
-        altText: Xbox
-        caption: Xbox
-      - type: ImageBlock
-        url: /images/skype.svg
-        altText: Skype
-        caption: Skype
-      - type: ImageBlock
-        url: /images/zcool.svg
-        altText: ZCOOL
-        caption: ZCOOL
-    spacing: 3
-    columns: 7
-    aspectRatio: auto
-    showCaption: false
-    enableHover: false
-    styles:
-      self:
-        width: wide
-        height: auto
-        margin:
-          - mt-0
-          - mb-0
-        padding:
-          - pt-36
-          - pb-24
-          - pl-4
-          - pr-4
-        justifyContent: center
-        borderRadius: none
-        borderWidth: 0
-        borderStyle: none
-        borderColor: border-dark
-      title:
-        textAlign: center
-      subtitle:
-        textAlign: center
-    imageSizePx: 240
-    type: MediaGallerySection
-  - colors: colors-h
-    elementId: ''
-    title: Remote doesn’t mean alone. Here are so great features
-    subtitle: >-
-      These are all excellent features that will provide exactly the things
-      you’re looking for.
-    items:
-      - type: FeaturedItem
-        title: Faster
-        text: >
-          Learn how top tech companies have learned working remote using our
-          product.
-        featuredImage:
-          url: /images/faster.svg
-          altText: altText of the image
-          caption: Caption of the image
-          elementId: ''
-          styles:
-            self:
-              opacity: 100
-          type: ImageBlock
-        styles:
-          title:
-            textAlign: center
-          text:
-            textAlign: center
-      - type: FeaturedItem
-        title: Smarter
-        text: >
-          Learn how top tech companies have learned working remote using our
-          product.
-        featuredImage:
-          url: /images/smarter.svg
-          altText: altText of the image
-          caption: Caption of the image
-          elementId: ''
-          styles:
-            self:
-              opacity: 100
-          type: ImageBlock
-        styles:
-          title:
-            textAlign: center
-          text:
-            textAlign: center
-      - type: FeaturedItem
-        title: Focused
-        text: >
-          Learn how top tech companies have learned working remote using our
-          product.
-        featuredImage:
-          url: /images/focused.svg
-          altText: altText of the image
-          caption: Caption of the image
-          elementId: ''
-          styles:
-            self:
-              opacity: 100
-          type: ImageBlock
-        styles:
-          title:
-            textAlign: center
-          text:
-            textAlign: center
-    columns: 3
-    styles:
-      self:
-        height: auto
-        width: wide
-        margin:
-          - mt-0
-          - mb-0
-          - ml-0
-          - mr-0
-        padding:
-          - pt-28
-          - pb-28
-          - pl-4
-          - pr-4
-        justifyContent: center
-        borderRadius: none
-        borderWidth: 0
-        borderStyle: none
-        borderColor: border-dark
-      title:
-        textAlign: center
-      subtitle:
-        textAlign: center
-      actions:
-        justifyContent: flex-start
-    type: FeaturedItemsSection
-  - elementId: ''
-    colors: colors-a
-    title: 'A great feature, we’re proud of'
-    text: >
-      Share WIP, comment on each other’s work, approve what’s ready to go, ship
-      together
-    media:
-      type: ImageBlock
-      url: /images/Image-on-the-right.svg
-      altText: Hero section image
-    styles:
-      self:
-        height: auto
-        width: wide
-        margin:
-          - mt-0
-          - mb-0
-        padding:
-          - pt-36
-          - pb-6
-          - pl-4
-          - pr-4
-        alignItems: center
-        justifyContent: center
-        flexDirection: row
-        borderColor: border-primary
-        borderWidth: 0
-        borderStyle: solid
-      title:
-        textAlign: left
-      subtitle:
-        textAlign: left
-      text:
-        textAlign: left
-      actions:
-        justifyContent: flex-start
-    type: HeroSection
-  - elementId: ''
-    colors: colors-a
-    title: And a strong value proposition
-    text: >
-      Share WIP, comment on each other’s work, approve what’s ready to go, ship
-      together
-    media:
-      type: ImageBlock
-      url: /images/Image-on-the-left.svg
-      altText: Hero section image
-    styles:
-      self:
-        height: auto
-        width: wide
-        margin:
-          - mt-0
-          - mb-0
-        padding:
-          - pt-6
-          - pb-36
-          - pl-4
-          - pr-4
-        alignItems: center
-        justifyContent: center
-        flexDirection: row-reverse
-      title:
-        textAlign: left
-      subtitle:
-        textAlign: left
-      text:
-        textAlign: left
-      actions:
-        justifyContent: flex-start
-    type: HeroSection
-  - elementId: ''
-    colors: colors-a
-    text: >+
-      ## “We sometimes write things. You should read it, it might shed some
-      light on why we’re doing what we’re doing”
-
-      [See all posts](/blog)
-
-    styles:
-      self:
-        height: auto
-        width: wide
-        margin:
-          - mt-0
-          - mb-0
-          - ml-0
-          - mr-0
-        padding:
-          - pt-22
-          - pb-0
-          - pl-4
-          - pr-4
-        justifyContent: center
-        borderRadius: none
-        borderWidth: 0
-        borderStyle: none
-        borderColor: border-dark
-      title:
-        textAlign: left
-      subtitle:
-        textAlign: center
-      text:
-        textAlign: left
-    type: TextSection
-  - elementId: ''
-    variant: variant-b
-    colors: colors-a
     posts:
+      - content/pages/blog/post-five.md
       - content/pages/blog/post-four.md
-      - content/pages/blog/post-three.md
-    styles:
-      self:
-        height: auto
-        width: wide
-        margin:
-          - mt-0
-          - mb-0
-          - ml-0
-          - mr-0
-        padding:
-          - pt-12
-          - pb-36
-          - pl-4
-          - pr-4
-        justifyContent: center
-        borderRadius: none
-        borderWidth: 0
-        borderStyle: none
-        borderColor: border-dark
-      title:
-        textAlign: center
-      subtitle:
-        textAlign: center
-      actions:
-        justifyContent: center
-    type: FeaturedPostsSection
-  - colors: colors-f
-    elementId: ''
-    title: Need Answers?
-    items:
-      - question: How it this different from what we have today?
-        answer: >-
-          At the office, working together is often a distruction, on remote, it
-          could be motivation, At the office, working together is often a
-          distruction, on remote, it could be motivation, At the office, working
-          together is often a distruction, on remote, it could be motivation
-      - question: How it this different from what we have today?
-        answer: >-
-          At the office, working together is often a distruction, on remote, it
-          could be motivation, At the office, working together is often a
-          distruction, on remote, it could be motivation, At the office, working
-          together is often a distruction, on remote, it could be motivation
-      - question: How it this different from what we have today?
-        answer: >-
-          At the office, working together is often a distruction, on remote, it
-          could be motivation, At the office, working together is often a
-          distruction, on remote, it could be motivation, At the office, working
-          together is often a distruction, on remote, it could be motivation
     styles:
       self:
         height: auto
@@ -420,8 +76,8 @@ sections:
           - ml-0
           - mr-0
         padding:
-          - pt-12
-          - pb-12
+          - pt-28
+          - pb-48
           - pl-4
           - pr-4
         justifyContent: center
@@ -432,34 +88,55 @@ sections:
       title:
         textAlign: left
       subtitle:
-        fontWeight: '400'
-        fontStyle: normal
+        textAlign: left
+      actions:
+        justifyContent: flex-start
+    type: FeaturedPostsSection
+    showDate: true
+    showExcerpt: true
+    showReadMoreLink: true
+    readMoreLinkLabel: Join adventure
+    showAuthor: false
+  - type: TextSection
+    colors: colors-e
+    variant: variant-a
+    text: '## [Follow us on Instagram](https://www.stackbit.com/)'
+    styles:
+      self:
+        height: auto
+        width: narrow
+        margin:
+          - mt-0
+          - mb-0
+          - ml-0
+          - mr-0
+        padding:
+          - pt-36
+          - pb-36
+          - pr-4
+          - pl-4
+        justifyContent: center
+      text:
         textAlign: center
-    type: FaqSection
-  - elementId: ''
-    colors: colors-a
-    testimonials:
-      - quote: >
-          ## Such a great experience to be using this product. It really helped
-          with what I needed help with.
-        name: Carla Rogers
-        title: Happy customer
-        image:
-          type: ImageBlock
-          url: /images/carla.jpg
-          altText: Photo of Isabelle Parks
-        styles:
-          self:
-            margin:
-              - mt-0
-              - mb-0
-            flexDirection: row-reverse
-          quote:
-            textAlign: left
-          name:
-            textAlign: left
-          title:
-            textAlign: left
+  - type: FeatureHighlightSection
+    colors: colors-d
+    backgroundSize: full
+    title: Time to leave your desk. Let’s go flying
+    text: |
+      We’re local, seasonal fisherman, supporting fishing restrictions.
+    actions:
+      - type: Link
+        label: Join adventure
+        url: 'https://www.stackbit.com/'
+        showIcon: true
+        icon: arrowRight
+    backgroundImage:
+      type: BackgroundImage
+      url: /images/hero-3.webp
+      backgroundSize: cover
+      backgroundPosition: center
+      backgroundRepeat: no-repeat
+      opacity: 90
     styles:
       self:
         height: auto
@@ -467,35 +144,71 @@ sections:
         margin:
           - mt-0
           - mb-0
+          - ml-0
+          - mr-0
         padding:
-          - pt-28
-          - pb-28
-          - pl-4
+          - pt-36
+          - pb-72
           - pr-4
-        justifyContent: center
+          - pl-4
+        justifyContent: flex-start
       title:
         textAlign: left
       subtitle:
         textAlign: left
-    type: TestimonialsSection
+      text:
+        textAlign: left
+      actions:
+        justifyContent: flex-start
   - type: ContactSection
-    colors: colors-f
-    title: Get early access
+    colors: colors-d
+    title: Join our club
     text: >
-      Sign up your team today to be the first to try out our new product to
-      increae your team’s productivity
+      We will notify you every time a shipment is heading to your neighborhood,
+      and you could immediatly let us know if you want in or not
     form:
       type: FormBlock
-      elementId: contact-form
+      elementId: sign-up-form
       destination: ''
       action: /.netlify/functions/submission_created
       fields:
+        - name: firstName
+          label: First Name
+          hideLabel: true
+          placeholder: First Name
+          isRequired: true
+          width: 1/2
+          type: TextFormControl
+        - name: lastName
+          label: Last Name
+          hideLabel: true
+          placeholder: Last Name
+          isRequired: false
+          width: 1/2
+          type: TextFormControl
         - name: email
-          placeholder: Your email
+          label: Email
+          hideLabel: true
+          placeholder: Email
           isRequired: true
           width: full
           type: EmailFormControl
-      submitLabel: Sign Up
+        - name: address
+          label: Address
+          hideLabel: true
+          placeholder: Address
+          isRequired: true
+          width: full
+          type: TextFormControl
+        - name: updatesConsent
+          label: Sign me up to recieve updates
+          isRequired: false
+          width: full
+          type: CheckboxFormControl
+      submitLabel: Submit form
+      styles:
+        submitLabel:
+          textAlign: center
     styles:
       self:
         height: auto
@@ -506,19 +219,30 @@ sections:
           - ml-0
           - mr-0
         padding:
-          - pt-36
-          - pb-36
+          - pt-24
+          - pb-24
           - pr-4
           - pl-4
         alignItems: center
         justifyContent: center
         flexDirection: row
-        borderRadius: none
-        borderWidth: 0
-        borderStyle: none
-        borderColor: border-dark
       title:
-        textAlign: left
+        textAlign: center
       text:
-        textAlign: left
+        textAlign: center
+  - type: DividerSection
+    colors: colors-d
+    styles:
+      self:
+        width: wide
+        padding:
+          - pt-4
+          - pb-4
+          - pl-4
+          - pr-4
+        justifyContent: center
+        borderWidth: 1
+        borderStyle: solid
+addTitleSuffix: true
+metaTags: []
 ---
