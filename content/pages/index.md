@@ -1,126 +1,274 @@
 ---
 title: Home
-hide_title: true
+layout: PageLayout
 sections:
-  - type: hero_section
-    section_id: hero
-    title: >-
-      Supporting Young People to
-      Lead Awfully Good Lives.
-    content: >
-      Our mission is to support young people to develop the personal and social skills needed to
-      thrive in the 21st century. [Let's
-      talk](/contact/).
-    actions: []
-  - type: grid_section
-    section_id: Projects
-    title: Our Projects
-    subtitle: What we do
-    col_number: two
-    grid_items:
-      - title: Gamers vs Depression
-        image: /images/Asset 2.png
-        content: "**Gamers vs Depression**\_uses online gaming as a vehicle for developing depression literacy and better social connections in adolescent males. Gamers vs Depression is a Movember Funded Project.\n"
-        actions:
-          - label: Learn More
-            url: 'https://gamersvsdepression.org'
-            style: button
-            icon: dribbble
-            new_window: true
-            no_follow: false
-      - title: Half a Yard
-        image: /images/Asset 6.png
-        content: >
-          Half a Yard is a school-based project that uses sport to support young
-          people to achieve that extra half a yard in their performance.
-
-
-          The project has two strands: (1) one-off workshops, and (2)
-          half-termly in-school delivery.
-
-
-          Our one-off workshops focus on helping young people to navigate the
-          various challenges around coping with the pressure to perform and
-          transitioning into performance environments. Whilst our in school
-          delivery provides rigorously developed and scientifically evaluated
-          six-week sports-based training programmes to enhance
-          performance-related skills (e.g., communication, teamwork).
-      - title: EduFu
-        image: /images/edufu logo.png
-        content: >
-          EDUFU is a project that uses combines the greatest stories in sporting
-          history to connect with and teach young people about topics related to
-          character building, personal, and social development.  Our learning
-          process model builds on decades of academic research in economics,
-          philosophy,  and psychopedagogy to create problem-based scenarios that
-          students work together to resolve. Although EduFu programmes can be
-          delivered directly by educators, we encourage a blended approach to
-          learning (where possible). Within our EduFu programme, we also offer
-          small group and one-to-one tutorial support. As with all of our
-          programmes, the content is differentiated based on academic ability.
-        actions:
-          - label: Learn More
-            url: 'https://edufu.org'
-            style: button
-            icon: dribbble
-            new_window: true
-            no_follow: false
-      - title: Sports Debate
-        image_alt: lorem-ipsum
-        content: >
-          Like it or loathe it, sport is important. It provides colour to
-          people's lives. A playground for children and young people to
-          experiment with their character. A commonality where friendships are
-          formed. All to often, however, discussions in sport are superficial.
-          They fail to get into the weeds, the nuance, the good stuff. This is
-          where Sports Debate comes in.
-
-
-          Each fortnight our team of experts, including five university lectures
-          from the UK and US, come together to discuss the big issues in sport.
-          We hope you enjoy our debates and if you are a teacher/lecturer,
-          please feel free to use the content within your classroom. As we grow,
-          we hope to be able to provide supplementary materials to help you hold
-          your own debates.
-        actions:
-          - label: Listen Now
-            url: 'https://podcasts.apple.com/us/podcast/sports-debate/id1569350911'
-            style: button
-            icon: dribbble
-            new_window: false
-            no_follow: false
-          - label: Episodes
-            url: /sports-debate
-            style: button
-            icon: dribbble
-            new_window: false
-            no_follow: false
-          - label: Join the Debate
-            url: www.twitter.com/sportsdebatepod
-            style: button
-            icon: dribbble
-            new_window: true
-            no_follow: false
-        image: /images/1500x500.png
-  - type: grid_section
-    section_id: Supporters
-    title: Proudly Supported by
-    col_number: three
-    grid_items:
-      - image: /images/iu-8.png
-        image_alt: Logo 1
-  - type: cta_section
-    section_id: cta
-    title: Let’s Work Together!
-    content: >
-      Say hello at team@awfullygood.org or tell us more about how we could help
-      you with your project by getting started below.
+  - type: DividerSection
+    colors: colors-d
+    styles:
+      self:
+        width: wide
+        padding:
+          - pt-0
+          - pb-6
+          - pl-0
+          - pr-0
+        justifyContent: center
+        borderWidth: 1
+        borderStyle: solid
+  - type: HeroSection
+    elementId: homepage-hero-1
+    colors: colors-d
+    backgroundSize: inset
+    title: We do fishing differently
+    subtitle: Fresh. Better. Faster.
     actions:
-      - label: Let's start
-        url: /contact
-        style: button
-    image: images/cta.svg
-    image_alt: Illustration
-    bg_color: light
-layout: advanced
+      - type: Button
+        label: Get Started
+        url: 'https://www.stackbit.com/'
+        style: primary
+        iconPosition: right
+        icon: arrowRight
+        showIcon: true
+    backgroundImage:
+      type: BackgroundImage
+      url: /images/hero.webp
+      backgroundSize: cover
+      backgroundPosition: center
+      backgroundRepeat: no-repeat
+      opacity: 85
+    styles:
+      self:
+        height: auto
+        width: wide
+        padding:
+          - pt-20
+          - pb-96
+          - pr-12
+          - pl-12
+        alignItems: center
+        justifyContent: center
+        flexDirection: row
+      title:
+        textAlign: left
+      subtitle:
+        textAlign: left
+      text:
+        textAlign: left
+      actions:
+        justifyContent: flex-start
+  - type: QuoteSection
+    colors: colors-d
+    quote: >-
+      “It’s great to see someone taking action while still maintaining a
+      sustainable fish supply to home cooks.”
+    name: Isabelle Parks
+    title: Head chef at Parks
+    styles:
+      self:
+        height: auto
+        width: wide
+        padding:
+          - pt-28
+          - pb-36
+          - pr-4
+          - pl-4
+        justifyContent: center
+      quote:
+        textAlign: center
+      name:
+        textAlign: center
+      title:
+        textAlign: center
+  - elementId: ''
+    colors: colors-c
+    variant: variant-a
+    title: Seasonal adventures
+    actions:
+      - type: Link
+        label: See all adventures
+        url: /blog
+        showIcon: true
+        icon: arrowRight
+    posts:
+      - content/pages/blog/post-five.md
+      - content/pages/blog/post-four.md
+    styles:
+      self:
+        height: auto
+        width: narrow
+        margin:
+          - mt-0
+          - mb-0
+          - ml-0
+          - mr-0
+        padding:
+          - pt-28
+          - pb-48
+          - pl-4
+          - pr-4
+        justifyContent: center
+        borderRadius: none
+        borderWidth: 0
+        borderStyle: none
+        borderColor: border-dark
+      title:
+        textAlign: left
+      subtitle:
+        textAlign: left
+      actions:
+        justifyContent: flex-start
+    type: FeaturedPostsSection
+    showDate: true
+    showExcerpt: true
+    showReadMoreLink: true
+    readMoreLinkLabel: Join adventure
+    showAuthor: false
+  - type: TextSection
+    colors: colors-e
+    variant: variant-a
+    text: '## [Follow us on Instagram](https://www.stackbit.com/)'
+    styles:
+      self:
+        height: auto
+        width: narrow
+        margin:
+          - mt-0
+          - mb-0
+          - ml-0
+          - mr-0
+        padding:
+          - pt-36
+          - pb-36
+          - pr-4
+          - pl-4
+        justifyContent: center
+      text:
+        textAlign: center
+  - type: FeatureHighlightSection
+    colors: colors-d
+    backgroundSize: full
+    title: Time to leave your desk. Let’s go flying
+    text: |
+      We’re local, seasonal fisherman, supporting fishing restrictions.
+    actions:
+      - type: Link
+        label: Join adventure
+        url: 'https://www.stackbit.com/'
+        showIcon: true
+        icon: arrowRight
+    backgroundImage:
+      type: BackgroundImage
+      url: /images/hero-3.webp
+      backgroundSize: cover
+      backgroundPosition: center
+      backgroundRepeat: no-repeat
+      opacity: 90
+    styles:
+      self:
+        height: auto
+        width: wide
+        margin:
+          - mt-0
+          - mb-0
+          - ml-0
+          - mr-0
+        padding:
+          - pt-36
+          - pb-72
+          - pr-4
+          - pl-4
+        justifyContent: flex-start
+      title:
+        textAlign: left
+      subtitle:
+        textAlign: left
+      text:
+        textAlign: left
+      actions:
+        justifyContent: flex-start
+  - type: ContactSection
+    colors: colors-d
+    title: Join our club
+    text: >
+      We will notify you every time a shipment is heading to your neighborhood,
+      and you could immediatly let us know if you want in or not
+    form:
+      type: FormBlock
+      elementId: sign-up-form
+      destination: ''
+      action: /.netlify/functions/submission_created
+      fields:
+        - name: firstName
+          label: First Name
+          hideLabel: true
+          placeholder: First Name
+          isRequired: true
+          width: 1/2
+          type: TextFormControl
+        - name: lastName
+          label: Last Name
+          hideLabel: true
+          placeholder: Last Name
+          isRequired: false
+          width: 1/2
+          type: TextFormControl
+        - name: email
+          label: Email
+          hideLabel: true
+          placeholder: Email
+          isRequired: true
+          width: full
+          type: EmailFormControl
+        - name: address
+          label: Address
+          hideLabel: true
+          placeholder: Address
+          isRequired: true
+          width: full
+          type: TextFormControl
+        - name: updatesConsent
+          label: Sign me up to recieve updates
+          isRequired: false
+          width: full
+          type: CheckboxFormControl
+      submitLabel: Submit form
+      styles:
+        submitLabel:
+          textAlign: center
+    styles:
+      self:
+        height: auto
+        width: narrow
+        margin:
+          - mt-0
+          - mb-0
+          - ml-0
+          - mr-0
+        padding:
+          - pt-24
+          - pb-24
+          - pr-4
+          - pl-4
+        alignItems: center
+        justifyContent: center
+        flexDirection: row
+      title:
+        textAlign: center
+      text:
+        textAlign: center
+  - type: DividerSection
+    colors: colors-d
+    styles:
+      self:
+        width: wide
+        padding:
+          - pt-4
+          - pb-4
+          - pl-4
+          - pr-4
+        justifyContent: center
+        borderWidth: 1
+        borderStyle: solid
+addTitleSuffix: true
+metaTags: []
 ---
