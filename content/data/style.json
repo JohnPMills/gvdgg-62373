@@ -2,8 +2,8 @@
     "type": "ThemeStyle",
     "fontHeadlines": "sans",
     "h1": {
-        "size": "7xl",
-        "weight": "normal",
+        "size": "9xl",
+        "weight": "bold",
         "decoration": "none",
         "case": "none",
         "letterSpacing": "normal"

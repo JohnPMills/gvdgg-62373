@@ -2,25 +2,6 @@
 title: Home
 layout: PageLayout
 sections:
-  - type: DividerSection
-    colors: colors-d
-    styles:
-      self:
-        width: wide
-        padding:
-          - pt-0
-          - pb-6
-          - pl-0
-          - pr-0
-        justifyContent: center
-        borderWidth: 1
-        borderStyle: solid
-  - type: HeroSection
-    elementId: homepage-hero-1
-    colors: colors-d
-    backgroundSize: inset
-    title: We do fishing differently
-    subtitle: Fresh. Better. Faster.
     actions:
       - type: Button
         label: Get Started
@@ -56,13 +37,6 @@ sections:
         textAlign: left
       actions:
         justifyContent: flex-start
-  - type: QuoteSection
-    colors: colors-d
-    quote: >-
-      “It’s great to see someone taking action while still maintaining a
-      sustainable fish supply to home cooks.”
-    name: Isabelle Parks
-    title: Head chef at Parks
     styles:
       self:
         height: auto
