@@ -1,523 +1,126 @@
 ---
 title: Home
-layout: PageLayout
+hide_title: true
 sections:
-  - type: HeroSection
-    elementId: homepage-hero-1
-    colors: colors-a
-    title: 'Love where you work, because work loves you'
-    text: >
-      One platform, one community, getting to the bottom line of everything
-      employment.  Figure out your benefits, practice for interviews, get
-      mentored, help peers, get helped in return.
-    actions:
-      - type: Button
-        label: Sign up
-        url: 'https://www.stackbit.com/'
-        style: primary
-        elementId: hero-main-button
-    media:
-      type: ImageBlock
-      url: /images/hero-1.png
-      altText: Image alt text
-      caption: Image caption
-    styles:
-      self:
-        height: auto
-        width: wide
-        margin:
-          - mt-0
-          - mb-11
-          - ml-0
-          - mr-0
-        padding:
-          - pt-12
-          - pb-12
-          - pr-4
-          - pl-4
-        alignItems: center
-        justifyContent: center
-        flexDirection: row
-        borderRadius: none
-        borderWidth: 0
-        borderStyle: none
-        borderColor: border-dark
-      title:
-        textAlign: left
-      subtitle:
-        textAlign: left
-      text:
-        textAlign: left
-      actions:
-        justifyContent: flex-start
-  - elementId: ''
-    colors: colors-f
-    title: Where did everyone go?
-    text: >
-      Learn how top tech companies have learned working remote using our product.
-    actions:
-      - type: Button
-        label: Sign Up
-        url: /
-        style: primary
-      - type: Link
-        label: Watch Video
-        url: /
-        showIcon: true
-        icon: arrowRight
-    styles:
-      self:
-        height: auto
-        width: wide
-        margin:
-          - mt-20
-          - mb-20
-          - ml-20
-          - mr-20
-        padding:
-          - pt-28
-          - pb-28
-          - pl-4
-          - pr-4
-        alignItems: center
-        justifyContent: center
-        flexDirection: row
-      title:
-        textAlign: left
-      subtitle:
-        textAlign: left
-      text:
-        textAlign: left
-      actions:
-        justifyContent: flex-start
-    type: HeroSection
-    media:
-      url: /images/hero-3.jpg
-      altText: Where did everyone go?
-      caption: Team meeting
-      elementId: ''
-      styles:
-        self:
-          opacity: 100
-      type: ImageBlock
-  - colors: colors-h
-    elementId: ''
-    images:
-      - type: ImageBlock
-        url: /images/apple.svg
-        altText: Apple
-        caption: Apple
-      - type: ImageBlock
-        url: /images/google-play.svg
-        altText: Google Play
-        caption: Google Play
-      - type: ImageBlock
-        url: /images/playstation.svg
-        altText: PlayStation
-        caption: PlayStation
-      - type: ImageBlock
-        url: /images/gatsby.svg
-        altText: Gatsby
-        caption: Gatsby
-      - type: ImageBlock
-        url: /images/xbox.svg
-        altText: Xbox
-        caption: Xbox
-      - type: ImageBlock
-        url: /images/skype.svg
-        altText: Skype
-        caption: Skype
-      - type: ImageBlock
-        url: /images/zcool.svg
-        altText: ZCOOL
-        caption: ZCOOL
-    spacing: 3
-    columns: 7
-    aspectRatio: 'auto'
-    showCaption: false
-    enableHover: false
-    styles:
-      self:
-        width: wide
-        height: auto
-        margin:
-          - mt-0
-          - mb-0
-        padding:
-          - pt-36
-          - pb-24
-          - pl-4
-          - pr-4
-        justifyContent: center
-        borderRadius: none
-        borderWidth: 0
-        borderStyle: none
-        borderColor: border-dark
-      title:
-        textAlign: center
-      subtitle:
-        textAlign: center
-    imageSizePx: 240
-    type: MediaGallerySection
-  - colors: colors-h
-    elementId: ''
-    title: Remote doesn’t mean alone. Here are so great features
-    subtitle: >-
-      These are all excellent features that will provide exactly the things
-      you’re looking for.
-    items:
-      - type: FeaturedItem
-        title: Faster
-        text: >
-          Learn how top tech companies have learned working remote using our
-          product.
-        featuredImage:
-          url: /images/faster.svg
-          altText: altText of the image
-          caption: Caption of the image
-          elementId: ''
-          styles:
-            self:
-              opacity: 100
-          type: ImageBlock
-        styles:
-          title:
-            textAlign: center
-          text:
-            textAlign: center
-      - type: FeaturedItem
-        title: Smarter
-        text: >
-          Learn how top tech companies have learned working remote using our
-          product.
-        featuredImage:
-          url: /images/smarter.svg
-          altText: altText of the image
-          caption: Caption of the image
-          elementId: ''
-          styles:
-            self:
-              opacity: 100
-          type: ImageBlock
-        styles:
-          title:
-            textAlign: center
-          text:
-            textAlign: center
-      - type: FeaturedItem
-        title: Focused
-        text: >
-          Learn how top tech companies have learned working remote using our
-          product.
-        featuredImage:
-          url: /images/focused.svg
-          altText: altText of the image
-          caption: Caption of the image
-          elementId: ''
-          styles:
-            self:
-              opacity: 100
-          type: ImageBlock
-        styles:
-          title:
-            textAlign: center
-          text:
-            textAlign: center
-    columns: 3
-    styles:
-      self:
-        height: auto
-        width: wide
-        margin:
-          - mt-0
-          - mb-0
-          - ml-0
-          - mr-0
-        padding:
-          - pt-28
-          - pb-28
-          - pl-4
-          - pr-4
-        justifyContent: center
-        borderRadius: none
-        borderWidth: 0
-        borderStyle: none
-        borderColor: border-dark
-      title:
-        textAlign: center
-      subtitle:
-        textAlign: center
-      actions:
-        justifyContent: flex-start
-    type: FeaturedItemsSection
-  - elementId: ''
-    colors: colors-a
-    title: 'A great feature, we’re proud of'
-    text: >
-      Share WIP, comment on each other’s work, approve what’s ready to go, ship
-      together
-    media:
-      type: ImageBlock
-      url: /images/Image-on-the-right.svg
-      altText: Hero section image
-    styles:
-      self:
-        height: auto
-        width: wide
-        margin:
-          - mt-0
-          - mb-0
-        padding:
-          - pt-36
-          - pb-6
-          - pl-4
-          - pr-4
-        alignItems: center
-        justifyContent: center
-        flexDirection: row
-        borderColor: border-primary
-        borderWidth: 0
-        borderStyle: solid
-      title:
-        textAlign: left
-      subtitle:
-        textAlign: left
-      text:
-        textAlign: left
-      actions:
-        justifyContent: flex-start
-    type: HeroSection
-  - elementId: ''
-    colors: colors-a
-    title: And a strong value proposition
-    text: >
-      Share WIP, comment on each other’s work, approve what’s ready to go, ship
-      together
-    media:
-      type: ImageBlock
-      url: /images/Image-on-the-left.svg
-      altText: Hero section image
-    styles:
-      self:
-        height: auto
-        width: wide
-        margin:
-          - mt-0
-          - mb-0
-        padding:
-          - pt-6
-          - pb-36
-          - pl-4
-          - pr-4
-        alignItems: center
-        justifyContent: center
-        flexDirection: row-reverse
-      title:
-        textAlign: left
-      subtitle:
-        textAlign: left
-      text:
-        textAlign: left
-      actions:
-        justifyContent: flex-start
-    type: HeroSection
-  - elementId: ''
-    colors: colors-a
-    text: >+
-      ## “We sometimes write things. You should read it, it might shed some
-      light on why we’re doing what we’re doing”
+  - type: hero_section
+    section_id: hero
+    title: >-
+      Supporting Young People to
+      Lead Awfully Good Lives.
+    content: >
+      Our mission is to support young people to develop the personal and social skills needed to
+      thrive in the 21st century. [Let's
+      talk](/contact/).
+    actions: []
+  - type: grid_section
+    section_id: Projects
+    title: Our Projects
+    subtitle: What we do
+    col_number: two
+    grid_items:
+      - title: Gamers vs Depression
+        image: /images/Asset 2.png
+        content: "**Gamers vs Depression**\_uses online gaming as a vehicle for developing depression literacy and better social connections in adolescent males. Gamers vs Depression is a Movember Funded Project.\n"
+        actions:
+          - label: Learn More
+            url: 'https://gamersvsdepression.org'
+            style: button
+            icon: dribbble
+            new_window: true
+            no_follow: false
+      - title: Half a Yard
+        image: /images/Asset 6.png
+        content: >
+          Half a Yard is a school-based project that uses sport to support young
+          people to achieve that extra half a yard in their performance.
 
-      [See all posts](/blog)
 
-    styles:
-      self:
-        height: auto
-        width: wide
-        margin:
-          - mt-0
-          - mb-0
-          - ml-0
-          - mr-0
-        padding:
-          - pt-22
-          - pb-0
-          - pl-4
-          - pr-4
-        justifyContent: center
-        borderRadius: none
-        borderWidth: 0
-        borderStyle: none
-        borderColor: border-dark
-      title:
-        textAlign: left
-      subtitle:
-        textAlign: center
-      text:
-        textAlign: left
-    type: TextSection
-  - elementId: ''
-    variant: variant-b
-    colors: colors-a
-    posts:
-      - content/pages/blog/post-four.md
-      - content/pages/blog/post-three.md
-    styles:
-      self:
-        height: auto
-        width: wide
-        margin:
-          - mt-0
-          - mb-0
-          - ml-0
-          - mr-0
-        padding:
-          - pt-12
-          - pb-36
-          - pl-4
-          - pr-4
-        justifyContent: center
-        borderRadius: none
-        borderWidth: 0
-        borderStyle: none
-        borderColor: border-dark
-      title:
-        textAlign: center
-      subtitle:
-        textAlign: center
-      actions:
-        justifyContent: center
-    type: FeaturedPostsSection
-  - colors: colors-f
-    elementId: ''
-    title: Need Answers?
-    items:
-      - question: How it this different from what we have today?
-        answer: >-
-          At the office, working together is often a distruction, on remote, it
-          could be motivation, At the office, working together is often a
-          distruction, on remote, it could be motivation, At the office, working
-          together is often a distruction, on remote, it could be motivation
-      - question: How it this different from what we have today?
-        answer: >-
-          At the office, working together is often a distruction, on remote, it
-          could be motivation, At the office, working together is often a
-          distruction, on remote, it could be motivation, At the office, working
-          together is often a distruction, on remote, it could be motivation
-      - question: How it this different from what we have today?
-        answer: >-
-          At the office, working together is often a distruction, on remote, it
-          could be motivation, At the office, working together is often a
-          distruction, on remote, it could be motivation, At the office, working
-          together is often a distruction, on remote, it could be motivation
-    styles:
-      self:
-        height: auto
-        width: narrow
-        margin:
-          - mt-0
-          - mb-0
-          - ml-0
-          - mr-0
-        padding:
-          - pt-12
-          - pb-12
-          - pl-4
-          - pr-4
-        justifyContent: center
-        borderRadius: none
-        borderWidth: 0
-        borderStyle: none
-        borderColor: border-dark
-      title:
-        textAlign: left
-      subtitle:
-        fontWeight: '400'
-        fontStyle: normal
-        textAlign: center
-    type: FaqSection
-  - elementId: ''
-    colors: colors-a
-    testimonials:
-      - quote: >
-          ## Such a great experience to be using this product. It really helped
-          with what I needed help with.
-        name: Carla Rogers
-        title: Happy customer
-        image:
-          type: ImageBlock
-          url: /images/carla.jpg
-          altText: Photo of Isabelle Parks
-        styles:
-          self:
-            margin:
-              - mt-0
-              - mb-0
-            flexDirection: row-reverse
-          quote:
-            textAlign: left
-          name:
-            textAlign: left
-          title:
-            textAlign: left
-    styles:
-      self:
-        height: auto
-        width: wide
-        margin:
-          - mt-0
-          - mb-0
-        padding:
-          - pt-28
-          - pb-28
-          - pl-4
-          - pr-4
-        justifyContent: center
-      title:
-        textAlign: left
-      subtitle:
-        textAlign: left
-    type: TestimonialsSection
-  - type: ContactSection
-    colors: colors-f
-    title: Get early access
-    text: >
-      Sign up your team today to be the first to try out our new product to
-      increae your team’s productivity
-    form:
-      type: FormBlock
-      elementId: contact-form
-      destination: ''
-      action: /.netlify/functions/submission_created
-      fields:
-        - name: email
-          placeholder: Your email
-          isRequired: true
-          width: full
-          type: EmailFormControl
-      submitLabel: Sign Up
-    styles:
-      self:
-        height: auto
-        width: narrow
-        margin:
-          - mt-0
-          - mb-0
-          - ml-0
-          - mr-0
-        padding:
-          - pt-36
-          - pb-36
-          - pr-4
-          - pl-4
-        alignItems: center
-        justifyContent: center
-        flexDirection: row
-        borderRadius: none
-        borderWidth: 0
-        borderStyle: none
-        borderColor: border-dark
-      title:
-        textAlign: left
-      text:
-        textAlign: left
+          The project has two strands: (1) one-off workshops, and (2)
+          half-termly in-school delivery.
+
+
+          Our one-off workshops focus on helping young people to navigate the
+          various challenges around coping with the pressure to perform and
+          transitioning into performance environments. Whilst our in school
+          delivery provides rigorously developed and scientifically evaluated
+          six-week sports-based training programmes to enhance
+          performance-related skills (e.g., communication, teamwork).
+      - title: EduFu
+        image: /images/edufu logo.png
+        content: >
+          EDUFU is a project that uses combines the greatest stories in sporting
+          history to connect with and teach young people about topics related to
+          character building, personal, and social development.  Our learning
+          process model builds on decades of academic research in economics,
+          philosophy,  and psychopedagogy to create problem-based scenarios that
+          students work together to resolve. Although EduFu programmes can be
+          delivered directly by educators, we encourage a blended approach to
+          learning (where possible). Within our EduFu programme, we also offer
+          small group and one-to-one tutorial support. As with all of our
+          programmes, the content is differentiated based on academic ability.
+        actions:
+          - label: Learn More
+            url: 'https://edufu.org'
+            style: button
+            icon: dribbble
+            new_window: true
+            no_follow: false
+      - title: Sports Debate
+        image_alt: lorem-ipsum
+        content: >
+          Like it or loathe it, sport is important. It provides colour to
+          people's lives. A playground for children and young people to
+          experiment with their character. A commonality where friendships are
+          formed. All to often, however, discussions in sport are superficial.
+          They fail to get into the weeds, the nuance, the good stuff. This is
+          where Sports Debate comes in.
+
+
+          Each fortnight our team of experts, including five university lectures
+          from the UK and US, come together to discuss the big issues in sport.
+          We hope you enjoy our debates and if you are a teacher/lecturer,
+          please feel free to use the content within your classroom. As we grow,
+          we hope to be able to provide supplementary materials to help you hold
+          your own debates.
+        actions:
+          - label: Listen Now
+            url: 'https://podcasts.apple.com/us/podcast/sports-debate/id1569350911'
+            style: button
+            icon: dribbble
+            new_window: false
+            no_follow: false
+          - label: Episodes
+            url: /sports-debate
+            style: button
+            icon: dribbble
+            new_window: false
+            no_follow: false
+          - label: Join the Debate
+            url: www.twitter.com/sportsdebatepod
+            style: button
+            icon: dribbble
+            new_window: true
+            no_follow: false
+        image: /images/1500x500.png
+  - type: grid_section
+    section_id: Supporters
+    title: Proudly Supported by
+    col_number: three
+    grid_items:
+      - image: /images/iu-8.png
+        image_alt: Logo 1
+  - type: cta_section
+    section_id: cta
+    title: Let’s Work Together!
+    content: >
+      Say hello at team@awfullygood.org or tell us more about how we could help
+      you with your project by getting started below.
+    actions:
+      - label: Let's start
+        url: /contact
+        style: button
+    image: images/cta.svg
+    image_alt: Illustration
+    bg_color: light
+layout: advanced
 ---
